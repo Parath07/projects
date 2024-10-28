@@ -1,0 +1,79 @@
+.container{
+    display: inline-block;
+    align-items: center;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 35%;
+    border-radius: 17px;
+}
+.content{
+    text-align: center;
+    padding: 35px;
+    margin: -5%;
+}
+
+.image_container img{
+    border-radius: 17px 17px 0px 0px;
+    width: 350px;
+}
+span{
+    display: flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+    padding: 10px 10px 0px 10px;
+    flex-direction:row;
+    border-radius: 10px;
+    margin-bottom: 1.7rem;
+    margin: 0rem 1rem 1.7rem 1rem;
+    
+}
+span img{
+    width: 35px;
+   
+}
+h5{
+    margin: 15px;
+    padding-left: -3rem;
+    font-weight: bold;
+}
+.icon{
+    margin: 15px -30px 15px 15px;
+}
+.change{
+    margin: 15px -20px 15px 15px;
+    font-style: normal;
+    
+}
+.change a{
+    color: hsl(245, 75%, 52%);
+    font-weight:800;
+    font-size: small;
+    
+}
+.price{
+    margin: -10%;
+    padding-left: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+h1{
+    font-weight: 800;
+}
+button{
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color:hsl(245, 75%, 52%) ;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 800;
+}
