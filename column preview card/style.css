@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.container{
+    display: flex;
+    justify-content:center;
+   margin-top: 7%;
+        
+}
+.box1{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.box2{
+    background-color:   hsl(184, 100%, 22%);
+    padding: 50px;
+}
+.box3{
+  
+    background-color:  hsl(179, 100%, 13%);
+    padding: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+h1{
+    color: white;
+    font-family: lexend;
+}
+p{
+    color: rgba(202, 197, 197, 0.942);
+    font-weight: 800;
+   
+}
+button{
+    margin-top: 30%;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+}
+.box1 button{
+    color: hsl(31, 77%, 52%);
+}
+.box2 button{
+    color: hsl(184, 100%, 22%);;
+}
+.box3 button{
+    color:  hsl(179, 100%, 13%);
+}
