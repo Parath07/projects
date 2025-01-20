@@ -1,0 +1,42 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+
+    background:rgb(255, 78, 136);
+    overflow: hidden;
+
+}
+.input-box{
+    background: white;
+    width:90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+}
+.input-box img{
+    width: 24px;
+    cursor:pointer;
+   
+
+}
+.input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
